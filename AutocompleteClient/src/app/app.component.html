@@ -1,0 +1,5 @@
+<p>Search your word</p>
+<input (keyup)="onKey($event.target.value)">
+<div *ngFor="let resp of uiresp">
+    <p>{{resp}}</p>
+    <div>
