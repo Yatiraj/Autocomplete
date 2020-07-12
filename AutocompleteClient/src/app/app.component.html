@@ -1,5 +1,11 @@
-<p>Search your word</p>
-<input (keyup)="onKey($event.target.value)">
-<div *ngFor="let resp of uiresp">
-    <p>{{resp}}</p>
-    <div>
+<mat-form-field class="example-full-width">
+
+    <input type="text" placeholder="Search Here" matInput [formControl]="myControl" [matAutocomplete]="auto" (keyup)="onKey($event.target.value)">
+
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let res of uiresp" [value]="res">
+        {{res}}
+      </mat-option>
+    </mat-autocomplete>
+
+  </mat-form-field>
