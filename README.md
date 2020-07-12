@@ -16,14 +16,14 @@ Running application:
    	url: https://localhost:8080
    	
 Dockercommands:
-	Dockerimage Repo: yatiraj/english_autocomplete:1.0.0
-	Pull image: docker pull yatiraj/english_autocomplete:1.0.0
-    Run: docker run --name <containername> -p 8080:8080 yatiraj/english_autocomplete:1.0.0
+	Dockerimage Repo: yatiraj/english_autocomplete:latest
+	Pull image: docker pull yatiraj/english_autocomplete:latest
+    Run: docker run --name <containername> -p 8080:8080 yatiraj/english_autocomplete:latest
     Create image: 
     Directory-> Autocomplete    
     command-> docker build . -t yatiraj/english_autocomplete:<tag>
 
-Git Repo:https://github.com/Yatiraj/Autocomplete.git
+Git Repo :https://github.com/Yatiraj/Autocomplete.git
 
 
 
