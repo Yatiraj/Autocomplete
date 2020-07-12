@@ -1,11 +1,14 @@
+<div class="container" style="background-image: url(./images/bluesky.jpg);">
 <mat-form-field class="example-full-width">
 
-    <input type="text" placeholder="Search Here" matInput [formControl]="myControl" [matAutocomplete]="auto" (keyup)="onKey($event.target.value)">
+    <input type="text" placeholder="Search Here" matInput [formControl]="myControl" [matAutocomplete]="auto"
+        (keyup)="onKey($event.target.value)">
 
     <mat-autocomplete #auto="matAutocomplete">
-      <mat-option *ngFor="let res of uiresp" [value]="res">
-        {{res}}
-      </mat-option>
+        <mat-option *ngFor="let res of uiresp" [value]="res">
+            {{res}}
+        </mat-option>
     </mat-autocomplete>
 
-  </mat-form-field>
+</mat-form-field>
+</div>

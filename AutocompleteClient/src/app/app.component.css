@@ -1,0 +1,14 @@
+.example-full-width{
+    position: fixed;
+    top: 43%;
+    left:35%;
+    width: 500px;
+    font-size: 30px;
+   
+}
+
+/* .container{
+    background-color: blueviolet;
+    background-image: url(./images/bluesky.jpg);
+    
+} */
