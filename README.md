@@ -1,17 +1,18 @@
 
+
 **TechStack:**
-Client-side code is built using angular & server side code using spring-boot rest api.
-Docker is used to containerize the app 
+
+    Autocomplete is a Single Page Application built for a interview assessment. Client-side code is built using angular & server side code using spring-boot rest api.
+    Docker is used to containerize the app 
+    Autocomplete project is designed using multi-module approach. Parent POM has two child POMs, client and server. Client POM is built first, and the UI
+    build files will be copied to service code folder Autocomplete\AutocompleteService\src\main\resources\static. Service code POM will generate jar having both client & service build files.
+
 
 **Build-process**
 
  - Directory: Autocomplete 
  - command: mvn clean install 
 
-     Autocomplete project is designed using multi-module approach.  Parent POM has two child POMs, client and server. Client POM is built first, and the UI
-           build files will be copied to service code folder
-           Autocomplete\AutocompleteService\src\main\resources\static. Service
-           code POM will generate jar having both client & service build files.
 
 **Running application:**
  - Directory:target 
