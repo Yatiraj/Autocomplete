@@ -23,10 +23,5 @@ Create image:
 Directory-> Autocomplete    
 command-> docker build . -t yatiraj/english_autocomplete:<tag>
 
-**Git Repo :**https://github.com/Yatiraj/Autocomplete.git
+**Git Repo :** https://github.com/Yatiraj/Autocomplete.git
 
-
-
-
-
- 
